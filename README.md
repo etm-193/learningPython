@@ -7,5 +7,5 @@ In this repository I'll share my progress of 100 days of coding python for a min
 1.  Python Syntax Basics Lesson
     - Basic print command
     - Data Type Strings & string manipulation
-    -
+    - Input program
 2.  My First Program: "BAND NAME GENERATOR"
