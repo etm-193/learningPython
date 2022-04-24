@@ -14,6 +14,13 @@ In this repository I'll share my progress of 100 days of coding python for a min
     - My First Program: "BAND NAME GENERATOR" (main.py)
 2.  Day two
     - Tip Calculator program
+    - Time left to live math
+    - BMI calculator
     - Data Types
     - Functions
+3.  Day three
+    -
+    -
+    -
+    
 
