@@ -2,6 +2,7 @@
 
 from __future__ import division
 from doctest import Example
+from tokenize import Floatnumber
 
 
 addition = 3 + 2
@@ -16,3 +17,12 @@ exponent = 2 ** 2
 Example = 3 * 3 + 3 / 3 - 3
 
 # left to right thats the way to go (program to see code execute step by step is called thony)
+
+
+
+
+
+
+
+
+
