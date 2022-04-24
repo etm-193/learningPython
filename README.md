@@ -4,10 +4,16 @@ Learning Python repository
 
 In this repository I'll share my progress of 100 days of coding python for a minimum of an hour. To keep this organized. I'll be using this README file to explain the flow of the lessons and each new file, line etc.
 
-1.  Python Syntax Basics Lesson
+1.  Day one
+    - Python Syntax Basics Lesson (stringManipulation.py)
     - Cheat Sheet
-    - Basic print command
-    - Data Type Strings & string manipulation
-    - Input program
-    - Variables
-2.  My First Program: "BAND NAME GENERATOR"
+    - Basic print command (stringManipulation.py)
+    - Data Type Strings & string manipulation (stringManipulation.py)
+    - Input program (stringCount.py)
+    - Variables (variables.py)
+    - My First Program: "BAND NAME GENERATOR" (main.py)
+2.  Day two
+    - Tip Calculator program
+    - Data Types
+    - Functions
+
