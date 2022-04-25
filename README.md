@@ -19,8 +19,8 @@ In this repository I'll share my progress of 100 days of coding python for a min
     - Data Types
     - Functions
 3.  Day three
-    -
-    -
-    -
-    
-
+    - Conditional Statements
+    - Logical Operators
+    - Code Blocks
+    - Scope
+    - my first game
