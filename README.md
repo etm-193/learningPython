@@ -24,3 +24,8 @@ In this repository I'll share my progress of 100 days of coding python for a min
     - Code Blocks
     - Scope
     - my first game
+4. Day four, randomization and python lists
+    - Rock paper scissors game
+    - loops
+    - lists
+    - randomization
