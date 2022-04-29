@@ -68,12 +68,6 @@ rock_win = rock < scissors
 paper_win = paper > rock
 scissors_win = scissors > paper
 
-
-# print(player_choice)
-# print(rock)
-
-# print(choice == rock)
-
 if choice == rock and computer_choice == scissors:  # player chose rock vs sc  rock wins
     print("You chose rock, rock beats scissors!")
 elif computer_choice == rock and choice == scissors:  # computer chose rock vs sc rock wins
