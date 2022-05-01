@@ -46,69 +46,45 @@ scissors = '''
 choices = [rock, paper, scissors]
 
 player_choice = input(
-    "What do you choose? Input 0 for rock, 1 for paper, 2 for scissors.")
+    "What do you choose? Input 0 for rock, 1 for paper, 2 for scissors.\n")
 
 choice = int(player_choice)
 
+if choice >= 3 or choice < 0 :
+    print("You typed an invalid number, you lose!")
+else:
 
-computer_choice = random.randint(0, 2)
+    computer_choice = random.randint(0, 2)
 
-player_selection = choices[choice]
-computer_selection = choices[computer_choice]
+    player_selection = choices[choice]
+    
+    computer_selection = choices[computer_choice]
+    print(player_selection)
+    print("The computer chose:")
+    print(computer_selection)
 
-print(player_selection)
-print("The computer chose:")
-print(computer_selection)
+    rock = int(0)
+    paper = int(1)
+    scissors = int(2)
 
-rock = int(0)
-paper = int(1)
-scissors = int(2)
+    rock_win = rock < scissors
+    paper_win = paper > rock
+    scissors_win = scissors > paper
 
-rock_win = rock < scissors
-paper_win = paper > rock
-scissors_win = scissors > paper
-
-if choice == rock and computer_choice == scissors:  # player chose rock vs sc  rock wins
-    print("You chose rock, rock beats scissors!")
-elif computer_choice == rock and choice == scissors:  # computer chose rock vs sc rock wins
-    print("Rock beats scissors, you loose!")
-elif choice == paper and computer_choice == rock:  # player chose paper vs rock paper wins
-    print("Paper beats rock!")
-elif choice == paper and computer_choice == scissors:  # player chose paper vs sc paper loses
-    print("Scissors beat paper, you lose.")
-elif choice == scissors and computer_choice == paper:  # player chose sc vs paper
-    print("Scissors beat paper, you win")
-elif choice == computer_choice:
-    print("Its a draw!")
-
-
-# print(rock_win)
-# print(paper_win)
-# print(scissors_win)
-
-# print(rock)
-# print(paper)
-# print(scissors)
+    if choice == rock and computer_choice == scissors:  # player chose rock vs sc  rock wins
+        print("You chose rock, rock beats scissors!")
+    elif computer_choice == rock and choice == scissors:  # computer chose rock vs sc rock wins
+        print("Rock beats scissors, you loose!")
+    elif choice == paper and computer_choice == rock:  # player chose paper vs rock paper wins
+        print("Paper beats rock!")
+    elif choice == paper and computer_choice == scissors:  # player chose paper vs sc paper loses
+        print("Scissors beat paper, you lose.")
+    elif choice == scissors and computer_choice == paper:  # player chose sc vs paper
+        print("Scissors beat paper, you win")
+    elif choice == computer_choice:
+        print("Its a draw!")
 
 
-# if choice == 0 :
-#     print(rock)
-# elif choice == 1 :
-#     print(paper)
-# else :
-#     print(scissors)
+# course solution
 
-
-# print("computer chose:")
-
-# if computer_choice == 0:
-#     print(rock)
-# elif computer_choice == 1:
-#     print(paper)
-# elif computer_choice == 2:
-#     print(scissors)
-
-
-# if computer_choice == player_choice :
-#     print("Its a draw...")
-# elif computer_choice  > player_choice
+# was almost exactly the same as my code! very few differences. one was the statement to catch invalid choices
