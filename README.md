@@ -35,4 +35,4 @@ In this repository I'll share my progress of 100 days of coding python for a min
     - max and min functions
     - FizzBuzz
     - Password generator
-6.  Day six, code blocks beginner python functions & karel
+6.  Day six, code blocks beginner python functions
